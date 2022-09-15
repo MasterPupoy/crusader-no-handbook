@@ -6,3 +6,12 @@ yes we have dumb and smart components, in-cases where components are smart, plea
 ##### ways to restrict smartness
 - restrict importing anything, pass as props as much as possible, imports should be in page components
 - dont use "globals", like "window", or libs that returns global values
+
+#### law of demeter
+#### limit scope to the smallest range as small as possible
+- no globals
+- smallest lexical scope
+- see closures
+#### you don't need to create something most of the time, ask a provider (DI)
+#### immutables
+#### purity 
