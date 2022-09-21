@@ -15,3 +15,35 @@ yes we have dumb and smart components, in-cases where components are smart, plea
 #### you don't need to create something most of the time, ask a provider (DI)
 #### immutables
 #### purity 
+#### prefer to style the surroundings of a (reusable) component when used/called, leave the components "main" wrapper unstyled
+- we do this to have flexibility when reusing components
+
+##### what i mean is
+
+```ts
+// this should be avoided
+const Component = () => {
+  ...
+  return <Box styling> // <-- this should be avoided, prefer an empty unstyled frag or container
+   // ...contents 
+  </Box>
+}
+
+const ParentPageOrSumthin = () => {
+  return <Component />
+}
+```
+do it this instead
+
+```ts
+
+const Component = () => {
+  ...
+  // notice the lack of styling of the "wrapping fragment"
+  return <> ...contents </>
+}
+
+const ParentPageOrSumthin = () => {
+  return <Box addstyleshere> <Component /> </Box>
+}
+```
