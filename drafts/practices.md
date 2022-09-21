@@ -24,7 +24,7 @@ yes we have dumb and smart components, in-cases where components are smart, plea
 // this should be avoided
 const Component = () => {
   ...
-  return <Box styling> // <-- this should be avoided, prefer an empty unstyled frag or container
+  return <Box styling> // <-- this should be avoided, prefer an empty unstyled frag or unstyled container
    // ...contents 
   </Box>
 }
@@ -39,12 +39,14 @@ do it this instead
 
 const Component = () => {
   ...
-  // notice the lack of styling of the "wrapping fragment"
+  // notice the lack of styling of the "wrapping fragment", we moved the "Box" of above to the calling component, see below
   return <> ...contents </>
 }
 
 const ParentPageOrSumthin = () => {
-  return <Box addstyleshere> <Component /> </Box>
+  return <Box addstyleshere> // <-- we moved the box here 
+     <Component />
+  </Box>
 }
 ```
 - further reading, https://mxstbr.com/thoughts/margin/ https://dev.to/seya/how-to-style-margin-with-react-8m9 altho articles mostly mention "margins", this also apply to most of other "layoutee" styles
