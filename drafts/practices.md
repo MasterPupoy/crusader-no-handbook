@@ -50,3 +50,5 @@ const ParentPageOrSumthin = () => {
 }
 ```
 - further reading, https://mxstbr.com/thoughts/margin/ https://dev.to/seya/how-to-style-margin-with-react-8m9 altho articles mostly mention "margins", this also apply to most of other "layoutee" styles
+
+#### https://github.com/ftmobsquad/mdt-yougou/issues/1172
