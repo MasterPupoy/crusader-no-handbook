@@ -11,4 +11,4 @@ this is not a "ts only" concept, but linking below ts docu because it is whats r
 https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions
 
 ## Avoid the `if([])` trap
-Empty array in javascript is considered `true` (truthy). So instead of using `if(someArray){}`, please use `if(someArray.length > 0)`
+Empty array in javascript is considered `true` (truthy). So instead of using `if(someArray){}`, please use `if(someArray.length > 0){}` instead.
