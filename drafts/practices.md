@@ -53,7 +53,9 @@ const ParentPageOrSumthin = () => {
 
 #### https://github.com/ftmobsquad/mdt-yougou/issues/1172
 
-#### do not branch to get away from errors, let it fail and handle in the caller
-avoid isolated `if` statements, isolated `if`s are those with no `else` pairs, instead of creating `if` clauses, or instead of introducing new expressions inside existing `if`s, prefer to let it fail but add proper handling somewhere the calltree (like with `try-catch` or with the `ResultType`),
+#### Fail early, then handle exceptions up the call-tree.
+handle exceptions or just let it fail, do not branch to get away from errors, let it fail and handle in the caller
+
+avoid using isolated `if` statements to prevent errors, isolated `if`s are those with no `else` pairs, instead of creating `if` clauses, or instead of introducing new expressions inside existing `if`s, prefer to let it fail but add proper handling somewhere the calltree (like with `try-catch` or with the `ResultType`),
 
 addition of `expressions/ifs` introduces "silent failing unhandlelable scenarios(program states)" which we do not want in our system. Prefer to *Fail early*, then handle exceptions up the call-tree.
