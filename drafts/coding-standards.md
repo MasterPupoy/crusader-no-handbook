@@ -89,3 +89,5 @@ computeBMI2({ height: 160, weight: 70})
 ```
 notice that the `computeBMI2` variant is more readable than the `computeBMI1` one.
 "single" param is not a hard rule, we could use multiple labeled obj params for complex params/functions if needed, always group related params to a single obj
+
+## for more function related stuff (read on function composition -`compose` & `pipe`, currying, and other constructs we can leverage with having closures and first-class function support)
