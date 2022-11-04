@@ -69,7 +69,7 @@ function isOpen(ticket) {
 }
 ```
 
-## Function parameters (prefer single obj for complex types)
+## Function parameters (prefer single obj param for RELATED complex types)
 aside, please be aware of the correct usage of the term "parameter" and "argument", for below example
 ```js
 function computeBMI`( height, weight ) {
