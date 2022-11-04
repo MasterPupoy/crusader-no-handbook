@@ -69,7 +69,7 @@ function isOpen(ticket) {
 }
 ```
 
-## Function parameters (prefer single obj param for RELATED complex types)
+## prefer (single-labeled) obj params as Function parameters
 aside, please be aware of the correct usage of the term "parameter" and "argument", for below example
 ```js
 function computeBMI1( height, weight ) {
@@ -79,7 +79,7 @@ function computeBMI1( height, weight ) {
 computeBMI1(160, 70)
 ```
 `height` and `weight` are the parameters, whereas `160` and `70` are the arguments.
-knowing above, please prefer using single complex labeled types like below
+with that out of the way, please prefer using single complex labeled types like below
 ```js
 function computeBMI2( { height, weight } ) {
   // some calculations
@@ -88,4 +88,4 @@ function computeBMI2( { height, weight } ) {
 computeBMI2({ height: 160, weight: 70})
 ```
 notice that the `computeBMI2` variant is more readable than the `computeBMI1` one
-let us not force ourselves to use a single param obj, we could use multiple labeled obj params for complex params/functions if needed
+"single" param obj is not a hard rule, we could use multiple labeled obj params for complex params/functions if needed, always group related params to a single obj
