@@ -11,6 +11,7 @@
 - nouns for varianbles, verbs for functions, and both in `camelCase`
 - classes and namespaces should be in `PascalCase`
 - functions and methods should be a verb in `camelCase`
+- parameters should use `camelCase` i.e. `function getZ( width, someHeight ){}`
 - constants should be in `UPPER_SNAKE_CASE` (note that using `consts` could also mean an immutable varialbe, immutable variables should still be in `camelCase`, usage of `const` does not always mean a "CONSTANT", by constant, we mean something like a config, setting, hard-coded values, and other things along those lines)
 - filenames are in `small-kebab-case` (unless frameworks used dictates otherwise)
 - please add jsdoc as much as possible (see more https://jsdoc.app)
@@ -67,3 +68,23 @@ function isOpen(ticket) {
   return false
 }
 ```
+
+## Function parameters (prefer single obj for complex types)
+aside, please be aware of the correct usage of the term "parameter" and "argument", for below example
+```js
+function computeBMI`( height, weight ) {
+  // some calculations
+}
+
+computeBMI`(160, 70)
+```
+`height` and `weight` are the parameters, whereas `160` and `70` are the arguments.
+knowing above, please prefer using single complex labeled types like below
+```js
+function computeBMI2( { height, weight } ) {
+  // some calculations
+}
+
+computeBMI2({ height: 160, weight: 70})
+```
+notice that the `computeBMI2` variant is more readable than the `computeBMI1` one
