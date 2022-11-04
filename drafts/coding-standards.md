@@ -8,10 +8,10 @@
 - use `const` as much as possible, only use `let` for special ocasions, never use `var`
 
 ## Naming conventions
-- nouns for varianbles, verbs for functions
+- nouns for varianbles, verbs for functions, and both in `camelCase`
 - classes and namespaces should be in `PascalCase`
 - functions and methods should be a verb in `camelCase`
-- constants should be in `UPPER_SNAKE_CASE`
+- constants should be in `UPPER_SNAKE_CASE` (note that using `consts` could also mean an immutable varialbe, immutable variables should still be in `camelCase`, usage of `const` does not always mean a "CONSTANT", by constant, we mean something like a config, setting, hard-coded values, and other things along those lines)
 - filenames are in `small-kebab-case` (unless frameworks used dictates otherwise)
 - please add jsdoc as much as possible (see more https://jsdoc.app)
 ```js
