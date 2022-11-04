@@ -91,4 +91,4 @@ notice that the `computeBMI2` variant is more readable than the `computeBMI1` on
 "single" param is not a hard rule, we could use multiple labeled obj params for complex params/functions if needed, always group related params to a single obj
 
 ## other `function` constructs
-for more function related stuff (read on function composition -`compose` & `pipe`, currying, and other constructs we can leverage with having closures and first-class function support)
+for more function related stuff (read on function composition -`compose` & `pipe`, currying, and other constructs we can leverage from having closures and first-class function support)
