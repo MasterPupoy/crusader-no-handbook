@@ -36,4 +36,32 @@ function example2() {}
 - when possible, use `async/await`, usage priority is as follows `async/await` > `promises` > `callbacks`, from most preferred to less preferred.
 
 # Comments
-- comments should mostly contain the "why the code" and not the "what the code does", we can identify the "what the code does" by reading the code, the "why", not so much, so please prefer to add comments that answers the "whys" 
+- comments should mostly contain the "why the code" and not the "what the code does", we can identify the "what the code does" by reading the code, the "why", not so much, so please prefer to add comments that answers the "whys"
+
+# Prefer guard-clauses, aka early returns
+instead of
+```js
+function isOpen(ticket) {
+  if (ticket.status === "Open") {
+    return true
+  } else {
+    if (ticket.isActive === true) {
+      return true
+    } else {
+      return false
+    }
+  }
+}
+```
+prefer
+```js
+function isOpen(ticket) {
+  if (ticket.status === "Open") {
+    return true
+  }
+  if (ticket.isActive) {
+    return true
+  }
+  return false
+}
+```
