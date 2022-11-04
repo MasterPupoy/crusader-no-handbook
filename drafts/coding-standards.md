@@ -92,3 +92,20 @@ notice that the `computeBMI2` variant is more readable than the `computeBMI1` on
 
 ## other `function` constructs
 for more function related stuff (read on function composition -`compose` & `pipe`, currying, and other constructs we can leverage from having closures and first-class function support)
+
+## lets reserve the prefix `make` for HOFs 
+- higher-order functions, similar to React's more popular higher-order-components (HOCs)
+- higher-order functions are functions that return another function when called.
+example
+```js
+function makePrinterWithLabelHOF(label) {
+  return function(text) {
+    console.log(`${label}: ${text}`)
+  }
+}
+const printWithRedLabel= makePrinterWithLabelHOF("red")
+printWithRedLabel('hey') // red: hey
+
+// or simply
+const makePrinterWithLabelHOF2 = label => text => console.log(`${label}: ${text}`)
+```
