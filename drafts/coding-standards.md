@@ -1,11 +1,13 @@
-# Format
+# Some Coding Standards
+
+## Format
 
 - please install prettier, and use the configured prettier format (editor plugins could run this on save, please enable so in your respective editors
 
-# Variable declarations
+## Variable declarations
 - use `const` as much as possible, only use `let` for special ocasions, never use `var`
 
-# Naming conventions
+## Naming conventions
 - nouns for varianbles, verbs for functions
 - classes and namespaces should be in `PascalCase`
 - functions and methods should be a verb in `camelCase`
@@ -24,21 +26,21 @@ function example() { return 0 }
 /** This is a description of the example2 function. */
 function example2() {}
 ```
-# Equality
+## Equality
 - always prefer strict checks `===` and `!==`, do not use `==` and `!=`
 
-# Use the `for` construct sparingly
+## Use the `for` construct sparingly
 - the `for` construct is more performant but most of the time, using `map` and or `forEach` (even `reduce`) is more readable.
 
-# Respect the linter
+## Respect the linter
 
-# Prefer the `async/await` construct
+## Prefer the `async/await` construct
 - when possible, use `async/await`, usage priority is as follows `async/await` > `promises` > `callbacks`, from most preferred to less preferred.
 
-# Comments
+## Comments
 - comments should mostly contain the "why the code" and not the "what the code does", we can identify the "what the code does" by reading the code, the "why", not so much, so please prefer to add comments that answers the "whys"
 
-# Prefer guard-clauses, aka early returns
+## Prefer guard-clauses, aka early returns
 instead of
 ```js
 function isOpen(ticket) {
