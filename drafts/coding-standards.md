@@ -72,11 +72,11 @@ function isOpen(ticket) {
 ## Function parameters (prefer single obj param for RELATED complex types)
 aside, please be aware of the correct usage of the term "parameter" and "argument", for below example
 ```js
-function computeBMI`( height, weight ) {
+function computeBMI1( height, weight ) {
   // some calculations
 }
 
-computeBMI`(160, 70)
+computeBMI1(160, 70)
 ```
 `height` and `weight` are the parameters, whereas `160` and `70` are the arguments.
 knowing above, please prefer using single complex labeled types like below
