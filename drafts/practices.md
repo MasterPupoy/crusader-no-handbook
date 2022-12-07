@@ -59,3 +59,9 @@ handle exceptions or just let it fail, do not branch to get away from errors, le
 avoid using isolated `if` statements to prevent errors, isolated `if`s are those with no `else` pairs, instead of creating `if` clauses, or instead of introducing new expressions inside existing `if`s, prefer to let it fail but add proper handling somewhere the calltree (like with `try-catch` or with the `ResultType`),
 
 addition of `expressions/ifs` introduces "silent failing unhandlelable scenarios(program states)" which we do not want in our system. Prefer to *Fail early*, then handle exceptions up the call-tree.
+
+#### De-nest (Brackets)
+We don't want deep bracket nests, at most 3 levels in a file lang siguro ang acceptable, 
+2 common ways to decrease nesting includes
+1. extract to a separate fn, see self documenting code for more info
+2. early return (see above)
