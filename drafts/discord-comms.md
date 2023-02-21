@@ -30,5 +30,5 @@ When creating threads, please follow below title format
 ```
 example
 ```
-PR 1308 feat() update behavior path should reset after changing selection
+#1308 feat() update behavior path should reset after changing selection
 ```
