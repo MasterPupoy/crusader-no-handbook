@@ -1,0 +1,11 @@
+1. Keep it simple: Prefer straightforward, easy-to-understand solutions over complex or clever ones. Optimize for readability and maintainability.
+1. Small, focused PRs: Break down large tasks into smaller, manageable PRs whenever possible. This makes it easier for reviewers to understand your changes and provide feedback.
+1. Function over form: Prioritize functionality and correctness over aesthetics or optimization, especially in the early stages of development. Focus on getting the feature working first, then refine and optimize as needed.
+1. Don't over-engineer: Avoid implementing features or optimizations that aren't required by the current use case. YAGNI (You Aren't Gonna Need It) is a useful principle to keep in mind.
+1. Code for the present: Design your code to meet the current requirements, rather than trying to predict future needs. This helps to avoid unnecessary complexity and keeps the codebase lean and adaptable.
+1. Clear naming conventions: Use descriptive and consistent naming conventions for variables, functions, and classes. This helps to make your code more readable and understandable.
+1. Leverage existing solutions: Reuse existing libraries, tools, and patterns when appropriate, rather than reinventing the wheel. This can save time and reduce the potential for introducing new bugs.
+1. Collaborate and communicate: Keep lines of communication open with the team. Discuss design decisions, ask for help when needed, and be open to feedback and suggestions from members.
+1. Test early and often: Write tests alongside your code to catch issues early and ensure that your changes work as expected.
+1. Continuous improvement: Regularly review and refactor your code to improve its quality, readability, and maintainability. Embrace the philosophy of continuous improvement and iterative development.
+1. Embrace the sculptor's mindset: Just as sculptors don't create a perfect masterpiece in a single pass, software development is an iterative process. We gradually refine our code through multiple iterations, chipping away at the rough edges and adding necessary details until we achieve the desired outcome. Embrace this iterative approach and be patient with the process of refining, enhancing, and polishing your code over time.
