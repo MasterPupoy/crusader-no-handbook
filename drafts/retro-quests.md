@@ -10,6 +10,8 @@ These questions should be asked at least 2x a year, ideally quarterly sana
 1. What support or resources do you need to be more effective in your role?
 1. Are there any specific areas where you would like to grow or develop your skills?
 
+These individual questions are to ensure that each team member can effectively contribute to the team's success. For members struggling to answer some/any of these questions, they are encouraged to arrange a meeting with their supervisors. Odee and Rain are available to assist with rephrasing questions and exploring potential responses that may be challenging to articulate.
+
 ## Team questions:
 1. What were the team's most significant achievements this quarter?
 1. What challenges did the team face, and how were they addressed?
