@@ -1,4 +1,4 @@
-## Draft Guidlines
+## forever draft na guidelines sa pag peer review
 
 1. ongoing feedback and communication is encouraged.
 We want to foster a culture of open communication and continuous feedback. Members are encouraged to ask questions, clarify misunderstandings, and discuss concerns in real-time, rather than waiting for formal code review.
