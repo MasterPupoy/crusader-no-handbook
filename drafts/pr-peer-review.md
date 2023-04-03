@@ -5,7 +5,7 @@ We want to foster a culture of open communication and continuous feedback. Membe
 1. PRs should only do 1 boring thing please, make them as small as possible, no mixing of features, fixes, and refactors please
 1. Descriptions, use imperative business language descriptions please, answer the question "What happens when the PR is merged", will `Feat: add button to block a user`
 1. time-boxed reviews, reviews should only take less than 20 mins, 30mins tops, ideal is even less than 5mins
-1. Reviews that could be taken as a follow up tickets should be preferred, prioritize merging PR and fixing later approach as much as possible
+1. Reviews that could be taken as a follow up tickets should be preferred, prioritize merging PR and prefer the "fix-later-in-a-new-PR" approach as much as possible
 1. Fix them warnings
 
 ## General Guidelines:
