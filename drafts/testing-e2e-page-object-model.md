@@ -81,3 +81,6 @@ test.describe('Login Tests', () => {
   });
 });
 ```
+
+## References
+- https://playwright.dev/docs/pom
