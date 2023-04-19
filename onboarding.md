@@ -1,0 +1,4 @@
+- discord tour, how we utilize each channel, some thread rules, etc 
+- git tour, what repo is what, commit message and stuff 
+- intro to magulong handbook 
+- evaluation and tailored learning path c/o odee

@@ -1,5 +1,3 @@
-draft, lets do our sections as follows
-
 
 1. Introduction: Provide an overview of the handbook's purpose, your organization's values, and the expected outcomes of following these guidelines.
 1. General Workflow: Outline the day-to-day processes and best practices for working on projects, including:

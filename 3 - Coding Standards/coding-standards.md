@@ -109,3 +109,4 @@ printWithRedLabel('hey') // red: hey
 // or simply
 const makePrinterWithLabelHOF2 = label => text => console.log(`${label}: ${text}`)
 ```
+

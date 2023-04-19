@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "bf7c711e497b953f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ce37fffb9695444",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "drafts/practices.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76eb8f62e16256b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c3b29cd854bfeb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c960d9307c13e97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "40fb39a49c549425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b04a4e1675379d4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c62785bcf720b225",
+    "type": "split",
+    "children": [
+      {
+        "id": "8964add80f5f35ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aceb08768a225dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "drafts/practices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f64be62643c09f47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "drafts/practices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a26bb18fcf0407df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4b2a2da3b9ced2f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "drafts/practices.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3ce37fffb9695444",
+  "lastOpenFiles": [
+    "drafts/pr-peer-review.md",
+    "drafts/backlogs.md",
+    "drafts/CONTRIBUTING.md",
+    "drafts/fleeting-list.md"
+  ]
+}
